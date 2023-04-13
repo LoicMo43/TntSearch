@@ -4,8 +4,8 @@
   "type": "thelia-module",
   "require": {
     "ext-json": "*",
-    "thelia/installer": "~1.1",
-    "teamtnt/tntsearch": "2.*"
+    "../../../vendor/thelia/installer": "~1.1",
+    "../../../vendor/teamtnt/tntsearch": "2.*"
   },
   "extra": {
     "installer-name": "TntSearch"

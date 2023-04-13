@@ -17,6 +17,8 @@
     <hooks>
         <hook id="tntsearch.hook" class="TntSearch\Hook\BackHook">
             <tag name="hook.event_listener" event="module.configuration" type="back" method="onModuleConfig"/>
+            <tag name="hook.event_listener" event="customer.top" type="back" templates="render:customer-search.html" />
+            <tag name="hook.event_listener" event="customers.js" type="back" templates="render:assets/js/bo-search.html" />
         </hook>
     </hooks>
 </config>

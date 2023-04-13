@@ -19,7 +19,6 @@ class TntSearch extends BaseModule
 
     /** @var string */
     const ON_THE_FLY_UPDATE = 'tntsearch.on_the_fly_update';
-
     public function postActivation(ConnectionInterface $con = null): void
     {
         self::setConfigValue(self::ON_THE_FLY_UPDATE, false);
